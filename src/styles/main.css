@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(white, #d2daff);
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color:#706f6f;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color:#706f6f;
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+}
+
+.AppBody {
+    padding:50px;
+}
+
+.HeadlineBlock {
+    margin-top: 15px;
+}
+
+.AppLogo {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 60px;
+    top: 50px;
+}
+
+.AuthorName {
+    position: absolute;
+    right: 50px;
+    top: 60px;
+}

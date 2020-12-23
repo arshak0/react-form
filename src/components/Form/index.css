@@ -62,7 +62,7 @@ input {
     margin-left: 50%;
     transform: translateX(-50%);
     border-radius: 10px;
-    border: 1px solid #ffa800;
+    border: 1px solid #757ceb;
     text-align: center;
     color: #515151;
     outline: none;
@@ -75,17 +75,17 @@ input {
     height: 30px;
     margin-left: 50%;
     transform: translateX(-50%);
-    background: #ffc400;
+    background: #00f7ff;
     border: none;
     border-radius: 12px;
-    color: white;
+    color: #666666;
     outline: none;
-    cursor:pointer
+    cursor: pointer;
 }
 
 .FormSubmit:hover {
-    color:#515151;
-    background:#ffd753;
+    color:#ffffff;
+    background:#40d9df;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
@@ -114,4 +114,16 @@ p.InvalidFieldSubmit {
 .FormElementDiv {
     /*display: flex;
     justify-content: center;*/
+}
+
+p.SuccessfullAuthP {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+p.SendingDataP {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
 }
