@@ -10,5 +10,5 @@ In order to successfully authorize, you need to fill in the fields correctly
 
 # Screenshots from the program
 
-![image1](https://github.com/arshak0/react-form/blob/main/public/screenshots%20from%20app/Screenshot_1.png)
-![image2](https://github.com/arshak0/react-form/blob/main/public/screenshots%20from%20app/Screenshot_2.png)
+![image1](https://github.com/arshak0/react-form/blob/master/public/screenshots%20from%20app/Screenshot_1.png)
+![image2](https://github.com/arshak0/react-form/blob/master/public/screenshots%20from%20app/Screenshot_2.png)
