@@ -2,7 +2,7 @@
 
 # About the app:
 - Form manages its state using only React's built-in features
-- App has some simple styling for the form (using plain CSS)
+- App has some simple styling for the form (using plain CSS). For desktop and mobile
 - Form has simple validation (name and e-mail)
 - App sends the data to API
 
@@ -12,3 +12,4 @@ In order to successfully authorize, you need to fill in the fields correctly
 
 ![image1](https://github.com/arshak0/react-form/blob/master/public/screenshots%20from%20app/Screenshot_1.png)
 ![image2](https://github.com/arshak0/react-form/blob/master/public/screenshots%20from%20app/Screenshot_2.png)
+![image2](https://github.com/arshak0/react-form/blob/master/public/screenshots%20from%20app/Screenshot_3.png)
