@@ -1,0 +1,117 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+input {
+    padding: 1px;
+}
+
+@media screen and (max-width:500px) {
+    .Form {
+        display: block!important;
+        margin-left: 5%!important;
+        transform: none!important;
+        width: 90%!important;
+    }
+    .SuccessfullAuth {
+        margin-left: 5%!important;
+        transform: none!important;
+        width: 90%!important;
+    }
+    .FormInput {
+        margin-left: 5%!important;
+        transform: none!important;
+        width: 90%!important;
+    }
+    .FormSubmit {
+        transform: none!important;
+        width: 100px!important;
+        margin-left: calc((100% - 100px)/2)!important;
+    }
+    p.InvalidField {
+        margin-left: 0%!important;
+        transform: none!important;
+    }
+    p.InvalidFieldSubmit {
+        margin-left: 0%!important;
+        transform: none!important;
+    }
+}
+
+.SuccessfullAuth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.FormInput {
+    margin-top: 34px;
+    width: 250px;
+    font-size: 15px;
+    height: 22px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    border: 1px solid #ffa800;
+    text-align: center;
+    color: #515151;
+    outline: none;
+}
+
+.FormSubmit {
+    margin-top: 20px;
+    width: 110px;
+    font-size: 15px;
+    height: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: #ffc400;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    outline: none;
+    cursor:pointer
+}
+
+.FormSubmit:hover {
+    color:#515151;
+    background:#ffd753;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+p.InvalidField {
+    position: absolute;
+    margin: 10px 0px 0px 0px;
+    font-size: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-weight: normal;
+    color: #dc3f3f;
+    text-align: center;
+}
+
+p.InvalidFieldSubmit {
+    position: absolute;
+    margin: 10px 0px 0px 0px;
+    font-size: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-weight: normal;
+    color: #dc3f3f;
+    text-align: center;
+}
+
+.FormElementDiv {
+    /*display: flex;
+    justify-content: center;*/
+}
